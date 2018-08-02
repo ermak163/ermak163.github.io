@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+
+    background-image: url("img/tint.png");
+    min-width: 960px;
+    height: 1720px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    position: fixed;
+    height: 70px;
+    width: 2000px;
+    background-color: black;
+    z-index: 3;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    
+    min-height: 70px;
+}
+
+.main-navigation {
+    float: left;
+    width: 560px;
+    min-height: 70px;
+    
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+    min-height: 70px;
+}
+
+.main-navigation a:hover {
+    border-bottom: 2px solid gray;
+}
+.color-position{
+	margin-left: 0px;
+}
+.user-block {
+    float: right;
+    min-height: 70px;
+    width: 140px;
+    padding-top: 16px;
+    line-height: 72px;
+    margin-top: 10px;
+}
+
+.login {
+    max-width: 140px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    background-image: url("img/-icon-login.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 18px;
+    height: 16px;
+    opacity: 0.3;
+}
+
+.login:hover::before {
+   cursor:pointer;
+    opacity: 1;
+}
+
+.main-navigation li {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 40px;
+    line-height: 72px;
+}
+/*==========================первая======================*/
+.index-logo {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    padding-top: 100px;
+    height: 204px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.features-items {
+ font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    color: white;
+    float: left;
+    width: 33.3%;
+
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.fearures-items::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 44%;
+    display: block;
+    width: 32px;
+    height: 31px;
+    right: 25px;
+    margin-top: 15px;
+    background-image: url(img/rhombus.png);
+    background-repeat: no-repeat;
+}
+
+.fearures-items p {
+    width: 285px;
+    color: #f7f4f1;
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container-logo {
+    width: 907px;
+}
+
+.features-items:last-child {
+    margin-right: 0;
+}
+
+.fearures-items {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    position: relative;
+    font-size: 30px;
+    display: block;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-right: -38px;
+    text-align: center;
+}
+
+
+.features-items p {
+    margin-bottom: 40px;
+    margin-top: 76px;
+    width: 251px;
+    height: 60px;
+    color: #f7f4f1;
+    font-family: 'PT Sans Narrow';
+ font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 74px;
+    margin-right: auto;
+}
+
+.font {
+    font-family: 'PT Sans Narrow';
+
+    background-color: white;
+    background-image: url("img/line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 940px;
+    min-height: 450px;
+    margin-top: 85px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+{
+    font-family: 'PT Sans Narrow';
+ min-width: 940px;
+    min-height: 450px;
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.container-news {
+    width: 940px;
+    height: 419px;
+    margin: 85px auto 0px auto;
+}
+
+.index-content-left {
+   font-family: 'PT Sans Narrow';
+font-weight: 700;
+    float: left;
+    width: 473px;
+    height: 467px;
+}
+
+.all-news {
+    margin-left: 80px;
+    margin-top: 33px;
+}
+
+.index-content-right {
+   font-family: 'PT Sans Narrow';
+font-weight: 700;
+    float: right;
+    min-height: 350px;
+    width: 385px;
+}
+
+.photogalleri {
+    margin-top: 38px;
+    margin-right: 45px;
+}
+
+.index-content-title-news {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-left: 81px;
+    margin-top: 55px;
+}
+
+.index-info {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    margin-left: 81px;
+    margin-top: 33px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-info-left {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: left;
+    width: 380px;
+    min-height: 330px;
+    margin-left: 20px;
+}
+
+.contact-info-right {
+	 font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 380px;
+    min-height: 330px;
+}
+
+.contact-info-logo-left {
+    margin-top: 0px;
+}
+
+.index-content-title-child {
+   font-family: 'PT Sans Narrow';
+margin-left:11px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-right: 200px;
+    margin-top: 55px;
+}
+.index-content-title {
+   font-family: 'PT Sans Narrow';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-right: 200px;
+    margin-top: 55px;
+}
+
+
+.time-worck {
+    margin-top: 32px;
+    margin-left: 0px;
+}
+
+.block {
+    margin-top: 35px;
+    text-align: right;
+    margin-right: 88px;
+    font-weight: 700;
+}
+
+.block span {
+    color: #000000;
+   font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    font-size:14px;
+    line-height: 24px;
+    margin-right: 86px;
+    margin-top: 35px;
+}
+
+.your-data input {
+    float: right;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 131px;
+    padding: 7px 15px;
+    border: 2px solid black;
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #f9f6f3;
+    outline: none;
+    color: black;
+}
+
+.your-data input:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.your-data input:focus {
+    border: 2px solid blue;
+}
+/*=========================конец-первой===========*/
+.font-tempation{
+    background-color:white;
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+   min-width: 1200px;
+min-height: 863px;
+color:black;
+}
+/*===================ПОДВАЛ=======================*/
+
+.footer-nav {
+    background-image: url(img/layer-23.png);
+    background-repeat: no-repeat;
+    background-position: 10% 20px;
+    min-width: 960px;
+    height: 200px;
+}
+
+.footer-contacts {
+    color: white;
+    margin-bottom: 20px;
+    float: left;
+font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 62px;
+}
+
+.footer-contacts a {
+    color: red;
+}
+.footer-contacts span{
+	text-decoration: underline;
+}
+
+.footer-contacts a:hover {
+    border: 1px solid blue;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    float: left;
+    background: url("img/sprite.png") no-repeat center;
+    text-decoration: none;
+   font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 62px;
+}
+
+
+.footer-social a {
+    color: red;
+}
+
+.footer-block:hover {
+    border: 1px solid blue;
+}
+
+.footer-social p {
+    margin-top: 2px;
+}
+
+.footer-creator {
+margin-top:65px;
+    color: red;
+    float: right;
+    text-decoration: none;
+  font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 65px;
+}
+.footer-creator a:hover {
+    border: 1px solid red;
+}
+.btn:hover,
+.btn:active {
+    background-color: red;
+}
+.btn.disabled:hover,
+.btn:disabled:hover {
+    background: #000000;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 140px;
+    height: 44px;
+    border: none;
+}
+
+
+.index-logo img {
+    width: 368px;
+    height: 204px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-block {
+    width: 43px;
+    height: 43px;
+    background-color: black;
+}
+/*====================СКРЫВАЮЩИЙСЯ ПСЕВДО-ЭЛЕМЕНТ===============*/
+.modal-content {
+    padding: 70px;
+    position: absolute;
+    width: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+    display: none;
+    background: white;
+}
+
+.margi {
+    width: 328px;
+	margin:0 auto;
+}
+.close {
+	width: 22px;
+	height: 22px;
+	font-size:0px;
+	cursor: pointer;
+	border: 0;
+	position: absolute;
+	right: -30px;
+	top:2px;
+	background: none;
+}
+.close::before,
+.close::after{
+	content: "";
+	position: absolute;
+	top: 9px;
+	left:3px;
+	width:19px;
+	height: 3px;
+	border-radius: 1px;
+	background: gray;
+}
+.close::before{
+	transform: rotate(45deg);
+}
+.close::after{
+	transform: rotate(-45deg);
+}
+
+.madal-content-material{
+	font-size: 14px;
+	margin-top:30px;
+
+}
+
+.data-e input{
+font-size: 14px;
+line-height: 24px;
+	width:327px;
+	height: 45px;
+	margin-top: 18px;
+	border:2px solid black;
+background: black;
+color:white;
+
+}
+.restori{
+	padding-left:78px;
+text-decoration: none;
+}
+.remember{
+	margin-top: 25px;
+}
+.enter{
+	width: 327px;
+	color: white;
+    background-color: black;
+    cursor: pointer;
+    font: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: top;
+    margin-top: 24px;
+    height: 45px;
+}
+.img .login-modal {
+    background-image: url("img/log-in-form.png");
+    background-repeat: no-repeat;
+    background-position: 293px;
+    padding:15px;
+    box-shadow: 5px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img .password-modal {
+    background-image: url("img/log-in-form (1).png");
+    background-repeat: no-repeat;
+    background-position: 293px;
+    padding: 15px;
+    box-shadow: 5px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.modal-content-show {
+    display: block;
+}
+
+.close-close {
+    display: none;
+}
+
+.login-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.login-checkbox input[type="checkbox"]+ .checbox-indikator{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+    left: 43px;
+}
+
+.checbox-indikator {
+    margin-left: 28px;
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::before,
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::after {
+    content: "";
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 5px;
+    left: -1px;
+    background-color: #000000;
+}
+
+.login-checkbox [type="checkbox"]:checked + .checbox-indikator::before {
+    transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::after {
+    transform: rotate(-45deg);
+}
+/*===================КАРТА=======================*/
+.index-content-map{
+	position: relative;
+	width: 750px;
+	height: 650px;
+	/*background-image: url("img/map.png");
+	background-repeat: no-repeat;*/
+	left: -50%;
+	top: 50%;
+    /*background-position: 50%;*/
+}
+.index-content-map-show{
+	display: none;
+}
+.photogalleri{
+    display: block;
+transition: 0.4s;
+}
+
+.photogalleri:hover{transform: scale(1.15, 1.15);}
+.breadrumb-er {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+   
+    text-transform: uppercase;
+    list-style: none;
+   
+    display: inline-flex;
+}
+.breadrumb-er li {
+    position: relative;
+  margin-right: 8px;
+  
+    list-style: none;
+}
+
+.footer-block img{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.silka{
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}

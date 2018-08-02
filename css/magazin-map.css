@@ -1,0 +1,124 @@
+.price-us{
+	margin-top: 99px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+}
+.breadcrumbs-title .snapek{
+	    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 87% 50%;
+    font-weight: 700;
+}
+.breadcrumbs-title{
+	margin-left: 150px;
+}
+.index-content-left-pictures{
+	width: 500px;
+	height: 692px;
+	margin-left: 138px;
+	float: left;
+	margin-top: 60px;
+}
+
+.breadcrumbs-us li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    list-style: none;
+}
+.breadcrumbs-us li::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.index-content-rigth-usu{
+	float: right;
+	width: 440px;
+	height: 503px;
+	margin-top: 84px;
+}
+
+.pictures-m{
+	margin-right: -8px;
+}
+
+.index-content-title-m{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	margin-left: 0px;
+}
+
+.article{
+	margin-left: 176px;
+	opacity: 0.5;
+}
+
+.price-zet{
+	width: 109px;
+    height: 43px;
+    opacity: 0.5;
+    background-color: gray;
+    text-align: center;
+    line-height: 43px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.btn-m{
+	display: inline-block;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    width: 78px;
+    height: 43px;
+    border: none;
+    padding: 10px 10px;
+    margin-left: 111px;
+    margin-top: -43px;
+}
+
+.index-content-title-zet{
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 58px;
+}
+.footer-block{
+    width: 43px;
+    height: 43px;
+    background-color: black;
+}
+.breadrumb-er li {
+    position: relative;
+  margin-right: 8px;
+  
+    list-style: none;
+}
+
+.footer-block img{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.breadrumb-er {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+   
+    text-transform: uppercase;
+    list-style: none;
+   
+    display: inline-flex;
+}

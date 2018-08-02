@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+
+    background-image: url(img/font.jpg);
+    background-repeat: no-repeat;
+    position: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+
+.inner-page {
+    color: #000000;
+    background: #f8f3f0 url("img/layer-24-copy.png") repeat;
+}
+
+.main-nav {
+    position: fixed;
+    height: 72px;
+    width: 1872px;
+    background-color: black;
+    z-index: 3;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    color: black;
+}
+
+.main-navigation {
+    float: left;
+    min-width: 504px;
+    min-height: 70px;
+}
+
+.main-navigation .active {
+    position: relative;
+    border: none;
+}
+
+.main-navigation .active-z:hover {
+    border: none;
+}
+
+.main-navigation .active::after {
+    content: "";
+    position: absolute;
+    right: 48px;
+    left: 5px;
+    background-color: white;
+    bottom: -19px;
+    height: 5px;
+    border: none;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+    min-height: 70px;
+}
+
+.main-navigation a:hover {
+    border-bottom: 2px solid gray;
+}
+
+.user-block {
+    float: right;
+    min-height: 70px;
+    padding-top: -1px;
+    margin-top: 8px;
+    color: white;
+    margin-right: 150px;
+    color: white;
+}
+
+.login {
+    max-width: 140px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    background-image: url("img/-icon-login.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 18px;
+    height: 16px;
+    opacity: 0.3;
+}
+
+.login:hover::before {
+   cursor: pointer;
+    opacity: 1;
+}
+
+.main-navigation li {
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    /* margin-left: 15px;*/
+    line-height: 36px;
+}
+
+
+
+
+/*=======================фон===================*/
+
+
+
+.price-list {
+    margin-top: 103px;
+    margin-left: 150px;
+}
+
+.price {
+
+    margin-bottom: 30px;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 17px;
+}
+
+.breadcrumbs-title .snape {
+    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 64px;
+    font-weight: 700;
+}
+
+
+.breadcrumbs-title li {
+    position: relative;
+    display: inline;
+    padding-right: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumbs li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.login-checkox input[type="checkbox"]+.checbox-indikator {
+    background: none;
+}
+
+.breadcrumbs li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.logo {
+
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    width: 600px;
+    background-image: url("img/layer-24-copy.png");
+    background-repeat: repeat;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.container-i {
+    text-align: center;
+   
+    margin: 0 auto;
+    padding: 15px 15px;
+    color: black;
+    background-repeat: repeat;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.container-i::after {
+    content: "";
+    position: relative;
+    display: block;
+    z-index: 1;
+    border-bottom: 2px solid black;
+    top: -25px;
+}
+
+.basick-information {
+    margin-top: 73px;
+}
+
+.index-content-left {
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: left;
+    width: 275px;
+    height: 640px;
+    margin-left: 130px;
+}
+
+.different-properties {
+    margin-top: 27px;
+}
+
+.index-content-right {
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    height: 213px;
+    width: 461px;
+}
+
+.rate {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 460px;
+    height: 125px;
+    margin-top: 40px;
+}
+
+.rate td {
+    border: 2px solid black;
+    padding: 16px 0px 17px 19px;
+}
+
+.money {
+    text-align: center;
+}
+
+.index-content-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.information-town {
+    width: 379px;
+    height: 84px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.index-content-titile-us {
+    margin-top: 70px;
+}
+
+.index-content-rigth-us {
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 377px;
+    height: 84px;
+}
+
+.information {
+    margin-top: 140px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.pictures-important {
+    width: 724px;
+    height: 310px;
+}
+
+.important-block {
+    width: 724px;
+    height: 692px;
+    float: right;
+}
+/*================Подвал=====================*/
+
+.footer-nav {
+    background-image: url(img/layer-23.png);
+    background-repeat: no-repeat;
+    background-position: 10% 20px;
+    width: 1872px;
+    height: 206px;
+    margin-top: 120px;
+}
+
+.footer-contacts {
+    color: white;
+    margin-bottom: 20px;
+    float: left;
+    font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 62px;
+}
+
+.footer-contacts a {
+    color: red;
+}
+
+.footer-contacts span {
+    text-decoration: underline;
+}
+
+.footer-contacts a:hover {
+    border: 1px solid blue;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    float: left;
+    background: url("img/sprite.png") no-repeat center;
+    text-decoration: none;
+   font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 62px;
+}
+
+
+.footer-social a {
+    color: red;
+}
+
+.footer-block:hover {
+    border: 1px solid blue;
+}
+
+.footer-social p {
+    margin-top: 2px;
+}
+
+.footer-creator {
+    margin-top: 65px;
+    color: red;
+    float: right;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow';
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 65px;
+}
+
+.footer-creator a:hover {
+    border: 1px solid red;
+}
+/*===============2страница==========*/
+.index-content-right-pictures{
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 725px;
+    height: 310px;
+    display:-webkit-inline-box;
+    margin-top: 60px;
+}
+.index-content-right-pictures{
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 725px;
+    height: 310px;
+    display:-webkit-inline-box;
+    margin-top: 20px;
+}
+.index-content-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 20px;
+    
+}
+.index-content-right-pictures-1{
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 725px;
+    height: 310px;
+    display:-webkit-inline-box;
+    margin-top: 60px;
+}
+.index-content-right-pictures-2{
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    float: right;
+    width: 725px;
+    height: 310px;
+    display:-webkit-inline-box;
+    margin-top: 20px;
+}
+.index-content-title-group{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.pictures{
+    width: 220px;
+    height: 300px;
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+    margin-right: 20px;
+}
+
+.pictures:nth-child(2){
+    margin-right: 20px;
+}
+
+.index-content-right-pictures span{
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    text-transform: uppercase;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.index-content-right-pictures b{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left:16px;
+}
+.pictures-repeat{
+    width: 220px;
+    height: 300px;
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+    margin-left: 15px;
+    margin-right: 6px;
+
+}
+
+.pictures-repeat:nth-child(2){
+    margin-right:6px;
+
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    width: 78px;
+    height: 43px;
+    border: none;
+    padding: 10px 10px;
+    margin-left: 125px;
+    margin-top: -43px;
+}
+.price-z{
+    width: 109px;
+    height: 43px;
+    opacity:0.5;
+    background-color:gray;
+    text-align:center;
+    line-height: 43px;
+    margin-left: 16px;
+    margin-top: 17px;
+}
+.wath{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    width: 112px;
+    height: 43px;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 33px;
+    margin-left: 20px;
+}
+/*==================хлебные крошки=============*/
+.breadcrumbs-z {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.breadcrumbs-z li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 42px;
+    list-style: none;
+}
+
+.pictures span{
+padding-left: 16px;
+}
+
+
+/*===========чекбоксы==========*/
+
+.checbox{
+    margin-left: 28px;
+}
+
+.login-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.login-checkbox input[type="checkbox"] + .checbox-indikator{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+    top: 2px;
+    left: -10px;
+}
+
+.checbox-indikator {
+    margin-left: 28px;
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::before,
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::after {
+    content: "";
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 5px;
+    left: -1px;
+    background-color: black;
+}
+
+.login-checkbox [type="checkbox"]:checked + .checbox-indikator::before {
+    transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checbox-indikator::after {
+    transform: rotate(-45deg);
+}
+.switch-numbers{
+    text-align: center;
+    margin-left: -45px;
+    margin-top: 668px;
+}
+.bfn{
+    width:43px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-right: 7px;
+    border: none;
+}
+
+.back{
+    border: none;
+    width: 43px;
+height: 43px;
+background-color: #ffffff;
+margin-right: 7px;
+}
+/*=======================РАДИО-КРУЖКИ====================*/
+.login-radio input[type="radio"]{
+    display:none;
+}
+.login-radio input[type="radio"] + .radio-indicator{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000101;
+    border-radius: 50%;
+    margin-left: -27px;
+}
+
+.login-radio input[type="radio"]:checked + .radio-indicator::before,
+.login-radio input[type="radio"]:checked + .radio-indicator::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: black;
+    border-radius: 55%;
+}
+.footer-block{
+    width: 43px;
+    height: 43px;
+    background-color: black;
+}
+.breadrumb-er li {
+    position: relative;
+  margin-right: 8px;
+  
+    list-style: none;
+}
+
+.footer-block img{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.breadrumb-er {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+   
+    text-transform: uppercase;
+    list-style: none;
+   
+    display: inline-flex;
+}
